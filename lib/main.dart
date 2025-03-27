@@ -47,7 +47,7 @@ class _SplashScreenState extends State<SplashScreen> {
     super.initState();
 
     // Hacemos la animación de opacidad para desaparecer el icono
-    Future.delayed(Duration(seconds: 2), () {
+    Future.delayed(Duration(seconds: 5), () {
       setState(() {
         _isVisible = false;
       });
