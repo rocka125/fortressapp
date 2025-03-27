@@ -52,6 +52,7 @@ class ApiService {
         return {'error': 'Error en el login: ${response.body}'};
       }
     } catch (e) {
+      print('Error al conectar con el servidor: $e');
       return {'error': 'Error al conectar con el servidor: $e'};
     }
   }
