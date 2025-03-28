@@ -19,7 +19,7 @@ class PoliticaPage extends StatelessWidget {
               ),
               SizedBox(height: 20),
               Text(
-                'Esta es la política de privacidad de NetShield. Aquí puedes '
+                'Esta es la política de privacidad de Fortressapp. Aquí puedes '
                 'describir cómo se recopilan, almacenan y utilizan los datos '
                 'de los usuarios. Asegúrate de incluir toda la información '
                 'relevante para que los usuarios estén informados sobre '
